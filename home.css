@@ -1,0 +1,836 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald:wght@200;400;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald:wght@200;400;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 280px;
+}
+
+
+/* navbar */
+.navbar{
+    background-color: white;
+    text-align: center;
+}
+.navbar img{
+    width: 130px;
+    cursor: pointer;
+}
+.navbar .nav-item a{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    margin:0 10px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.navbar .nav-item a:hover{
+    color: #f7be27;
+}
+.navbar .nav-item .number{
+    color: #f7be27;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -2%;
+    cursor: pointer;
+}
+.navbar .nav-item i{
+    font-size: 30px;
+    margin: 2px 0 0 10px;
+    transition: all 0.5s;
+}
+.navbar .nav-item i:hover{
+    color: #f7be27;
+    cursor: pointer;
+}
+
+
+
+
+/* header */
+header{
+    background-image: url(./images/header.jpg);
+    height: auto;
+    width: 100% !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+header .container h1{
+    padding-top: 200px;
+    font-family: "Lilita One", Sans-serif;
+    font-size: 112px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 3px;
+}
+header h4{
+    padding: 20px;
+    font-size: 20px;
+}
+header button{
+    padding: 10px 45px;
+    background-color: red;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    margin: 20px 0px 120px 0px;
+    border: red 1px solid;
+    transition: all 0.7s;
+}
+header button:hover{
+   background: none;
+   border: white 1px solid; 
+}
+
+
+
+/* sect 1 */
+.sect-1{
+    margin-top: 100px;
+}
+.sect-1 .img-s1 img{
+    width: 100% ;
+}
+.sect-1 .col-md-6 h1{
+    font-family: 'Oswald', sans-serif;
+    color: #642F21;
+    font-size: 55px;
+    font-weight: 500;
+    margin: 20px 0;
+    padding-top: 20px;
+}
+.sect-1 .row .descr{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #757575;
+}
+.sect-1 .col-3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #642F21;
+    margin: 60px 0;
+}
+.sect-1 .col-3 img{
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* sect 2 */
+.sect-2 .row{
+    margin: 70px 0;
+}
+.sect-2 .row img{
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+
+
+
+/* sect 3 */
+.sect-3 .container .heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sect-3 .container .heading h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: red;
+    font-family: 'Oswald', sans-serif;
+}
+.sect-3 .col-md-6 .name,.price{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #642f21;
+    margin-bottom:15px;
+}
+.sect-3 .col-md-6 .row{
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.sect-3 .col-md-6 .itm-disc{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.sect-3 .col-md-6 .price{
+    text-align: end;
+}
+.sect-3 .col-md-6 .col-3 button{
+    float: right;
+}
+.sect-3 .col-md-6 .col-3 button{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    border: none;
+    color: rgb(83, 80, 80);
+    background-color: rgb(216, 215, 215);
+    padding:1.5px 8px;
+    border-radius: 3px;
+    transition: all 1.2s;
+}
+.sect-3 .col-md-6 .row:hover button{
+    background-color:#f7be27;
+    color: black;
+}
+
+
+/* section 4 */
+.sect-4 .container img{
+    width: 100%;
+    margin: 90px 0;
+}
+
+
+
+/* section 5 */
+.sect-5{
+    background-image: url(./images/woden.jpg);
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 100px 0 70px 0;
+    background-attachment: fixed;
+}
+.sect-5 .col-lg-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sect-5 .col-lg-5 h1{
+    color: #FFFFFFC2;
+    font-family: "Oswald", Sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: -1px;
+}
+.sect-5 .col-lg-5 div{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.sect-5 .col-lg-5 span{
+    font-family: "Oswald", Sans-serif;
+    margin: 10 20px 70px 0;
+    font-size: 30px;
+}
+.sect-5 .col-lg-5 .number{
+    font-size: 50px;
+    color: #f7be27;
+    font-weight: 600;
+}
+.sect-5 .col-lg-7 img{
+    width: 100%;
+    margin: -12% 0 -7% 0;
+}
+
+
+
+
+/* section 6 */
+.sect-6{
+    margin: 10px 0 50px 0;
+}
+.sect-6 .row .col-md-6 .offer{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px 0 0 10px;
+}
+.sect-6 .row .col-md-6 .offer img{
+    width: 100% !important;
+    height: auto;
+    transition: all 1s ease;
+}
+.sect-6 .row .col-md-6 .offer:hover img{
+    transform: scale(1.2);
+}
+
+
+
+/* section 7 */
+.sect-7{
+    margin: 30px 0;
+}
+.sect-7 marquee img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+/* section 8 */
+.sect-8{
+    margin: 40px 0;
+}
+.sect-8 .container .heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sect-8 .container .heading h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: red;
+    font-family: 'Oswald', sans-serif;
+}
+.sect-8 .container .heading .discr{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #757575;
+    margin: 0 20%;
+}
+.sect-8 .row .imgs-s8{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.sect-8 .row .imgs-s8 img{
+    width: 100%;
+    height: auto;
+    transition: all 1s ease;
+}
+.sect-8 .row .col-md-4:hover .imgs-s8 img{
+    transform: scale(1.2);
+}
+.sect-8 .row .imgs-s8 .text{
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    margin: 20px 0 0 10px;
+    z-index: 1;
+    background-color:#757575;
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+.sect-8 .content{
+    font-family: "Oswald", Sans-serif;
+    margin-bottom: 40px;
+    transition: all 1s;
+}
+.sect-8  .icons{
+    margin-left: 5%; 
+}
+.sect-8  .icons i{
+    color: #f7be27;
+    margin:0 0 20px 2px;
+}
+.sect-8 .content h2{
+    color: #642f21;
+    font-weight: 600;
+    cursor: pointer;
+}
+.sect-8 .content .discr{
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #757575;
+    margin: 10px 0 20px 0;
+}
+.sect-8 .content span{
+    color: red;
+    font-size: 25px;
+    font-weight: 600;
+}
+.sect-8 .content button{
+    background-color: #f7be27;
+    padding: 2px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 30%;
+    display: none;
+}
+.sect-8 .col-md-4:hover .content button{
+    display: inline-block;
+}
+.sect-8 .col-md-4 .hide{
+    display: none;
+}
+
+
+/* section 9 */
+.sect-9{
+    background-color: rgb(201, 48, 48);
+    height: auto;
+    color: #fff;
+    margin: 60px 0;
+}
+.sect-9 .row .align{
+    margin: 8% 0 20px 0;
+}
+
+.sect-9 .row .discr{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+.sect-9 .row .dow-mob{
+    font-size: 37px;
+    font-weight: 600;
+    font-family: "Oswald", Sans-serif;
+}
+.sect-9 .row .offer{
+    font-size: 70px;
+    font-weight: 800;
+    font-family: "Oswald", Sans-serif;
+}
+.sect-9 .row .align img{
+    width: 160px;
+    margin: 40px 0 20px 5px;
+}
+
+.sect-9 .row .shop img{
+    width: 100%;
+    margin-top: -40px;
+}
+
+
+/* section 10 */
+.sect-10{
+    margin: 60px 0;
+}
+.sect-10 .container .row{
+    margin: 40px 0;
+}
+.sect-10 .container .img-s10 img{
+    width: 100%;
+}
+.sect-10 .container .row .details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sect-10 .container .details h1{
+    font-family: "Oswald", Sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: #642f21;
+}
+.sect-10 .container .details .discr{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin: 10px 5%;
+}
+.sect-10 .container .details .pric .from{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: #642f21;
+    margin-right: 20px;
+}
+.sect-10 .container .details .pric .price-{
+    font-family: "Oswald", Sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(180, 18, 18);
+}
+.sect-10 .container .row .hide{
+    display: none;
+}
+
+/* section 11 */
+.sect-11{
+    height: auto;
+    background-image:linear-gradient(rgba(15, 15, 15, 0.8), rgba(12, 12, 12, 0.6)), url(./images/img-08.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.sect-11 .slide{
+    margin: 30px 0;
+}
+.sect-11 .carousel-inner{
+    width: 100%;
+}
+.carousel-item img{
+    height: 140px;
+    border-radius: 50%;
+    margin:30px 0 20px 0;
+}
+.sect-11 .carousel-item .icon-star{
+    color: #ffc107;
+}
+.sect-11 .carousel-item .fontsiz{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 10% 0 10%;
+    
+}
+.sect-11 .carousel-item .rev-auth{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 20px 10% 0 10%;
+}
+.sect-11 li{
+    margin:15px 0 15px 40px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+
+
+/* section 12 */
+.sect-12{
+    margin: 50px 0;
+}
+.sect-12 .container .heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sect-12 .container .heading h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: red;
+    font-family: 'Oswald', sans-serif;
+}
+.sect-12 .container .heading .discr{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #757575;
+    margin: 0 20%;
+}
+.sect-12 .text{
+    position: absolute;
+    margin: -45px 0 0 10px;
+}
+.sect-12 .text h5{  
+    display: none;
+    color: white;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.sect-12 .gal-img{
+    width: 100%;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.sect-12 img{
+    width: 100%;
+    transition: all 1s;
+    cursor: pointer;
+}
+.sect-12 .gal-img:hover img{
+    transform: scale(1.2);
+    display: inline-block;
+    background-color: rgb(32, 32, 32,0.5);
+}
+.sect-12 .gal-img:hover{
+    background-color: rgb(0, 0, 0,0.7);
+    opacity: 0.5;
+
+}
+
+.sect-12 .gal-img:hover h5{
+    display: inline-block;
+}
+
+
+
+/* section 13 */
+.sect-13{
+    color: white;
+    background-image: url(./images/covid1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+}
+
+.sect-13 .row{
+    margin: 0 5% 0 12%;
+}
+.sect-13 .heading{
+    text-align: center;
+    margin: 40px auto;
+}
+.sect-13 h1{
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Oswald", Sans-serif;
+}
+
+.sect-13 p,li{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.sect-13 ul{
+    margin:40px 15px;
+}
+
+
+/* section 14 */
+.sect-14{
+    font-family: 'Roboto', sans-serif;
+}
+.sect-14 .container .heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sect-14 .container .heading h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: red;
+    font-family: 'Oswald', sans-serif;
+}
+.sect-14 .container .heading .discr{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #757575;
+    margin: 0 20%;
+}
+.sect-14 .img-z{
+    width: 100%;
+    overflow: hidden;
+}
+.sect-14 .img-z img{
+    width: 100%;
+    transition:1.2s ease;
+}
+.sect-14 .col-md-4:hover img{
+    transform: scale(1.2);
+}
+.sect-14 button{
+    color: #fff;
+    background-color: red;
+    margin: -13px 0 0 17px;
+    border-radius: 30px;
+    border: none;
+    position: sticky;
+    display: block;
+    padding: 2px 5px;
+    
+}
+.sect-14 .detail{
+    margin: 20px 0 40px 20px;
+}
+.sect-14 .detail h5{
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 5% 0 5% 0;
+    color: rgb(85, 49, 2);
+    font-weight: 500;
+    color: #642f21;
+}
+.sect-14 .detail p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #757575;
+}
+
+
+/* section 15 */
+.sect-15 {
+    margin: 40px 0;
+}
+
+
+
+/* section 16 */
+.sect-16 .logo{
+    margin: 26px 0;
+}
+.sect-16 .logo img{
+    width: 200px;
+    margin: auto;
+}
+.sect-16 .container .links{
+    margin: 20px 0;
+}
+.sect-16 .container .links a{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin:10px 0 10px 0;
+    border-left:black 3px solid;
+    text-decoration: none;
+    transition: all 0.6s;
+    color: black;
+    padding:0 10px;
+    text-align: center;
+}
+.sect-16 .container .links a:hover{
+    color: #ffc107;
+}
+
+.sect-16 .container .links a:first-child {
+    border-left: none;
+    }
+.sect-16 .container .icons{
+    margin: 20px 0;
+}
+.sect-16 .container .icons i{
+    font-size: 30px;
+    margin:15px 13px;
+    transition: all 0.6s;
+}
+.sect-16 .container .icons i:hover{
+    color: #ffc107;
+    cursor: pointer;
+}
+.sect-16 .copyri{
+   text-align: center;
+   margin: 20px 0 100px 0;
+}
+
+
+
+
+
+
+
+@media(max-width:767px){
+    .sect-8 .col-md-4 .hide{
+        display: inline-block;
+    }
+    .sect-8 .col-md-4 .show{
+        display: none;
+    }
+    .sect-10 .container .row .hide{
+        display: inline-block;
+        
+    }
+    .sect-10 .container .row .hide h1,.pric{
+        text-align: center;
+     }
+    .sect-10 .container .row .show{
+        display: none;
+    }
+    .sect-11 .fontsiz{
+        margin: 0 5%;
+    } 
+.sect-16 .container .icons {
+    display: flex;
+    flex-direction: column;
+}
+.sect-16 .container .links{
+    display: flex;
+    flex-direction: column;
+}
+.sect-16 .container .links a{
+    border-left: none;
+}
+.sect-16 .container .links a:hover{
+    border-left: none;
+}
+}
+@media(max-width:991px){
+    .sect-5 .col-lg-7 img{
+        margin: 10px 0 -9% 0;
+    }
+    .sect-8 .container .heading .discr{
+        margin: 0 10%;
+    }
+    .sect-12 .container .heading .discr{
+        margin: 0 10%;
+    }
+    .sect-9 .row .shop img{
+        margin-top:40px;
+    }
+    .sect-9 .row .align{
+        margin: 20px 0 20px 0;
+    }
+
+}
+@media(max-width:890px){
+    header .container h1{
+        font-size: 70px;
+    }
+    .sect-1 .col-md-6 h1{
+        font-size: 40px;
+        padding-top: 0;
+    }
+
+    header h4{
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
+
+
+
+@media(max-width:552px){
+    .sect-5 .col-lg-5 .number{
+        display: block;
+    }
+    .sect-13 p,li{
+        font-size: 16px;
+    }
+    .sect-13 h1{
+        font-size: 40px;
+    }
+    .sect-3 .container .heading h1, .sect-8 .container .heading h1, .sect-12 .container .heading h1, .sect-13 .container .heading h1, .sect-14 .container .heading h1{
+        font-size: 40px;
+    }
+    .sect-8 .container .heading .discr, .sect-12 .container .heading .discr, .sect-13 .container .heading .discr ,.sect-14 .container .heading .discr{
+        font-size: 16px;
+    }
+}
+
+
+@media(max-width:390px){
+    header .container h1{
+        font-size: 50px;
+    }
+    .sect-5 .col-lg-6 .number{
+        margin-left: 3px;
+        font-size: 40px;
+    }
+    .sect-8 .container .heading .discr{
+        margin: 0 2%;
+    }
+    .sect-9 .row .align img{
+        width: 100px;
+    }
+    .sect-10 .container .details h1{
+        font-size: 40px;
+    }
+}
+
+
+
